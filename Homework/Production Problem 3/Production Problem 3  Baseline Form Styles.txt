@@ -1,0 +1,38 @@
+# Production Problem 3: Baseline Form Styles
+
+## The Problem
+
+Find the HTML form in the `index.html` file in this directory. First, set it up to correctly accept the information called for in the <label> elements, and ensure that the HTML is valid.
+
+Then, create a set of baseline, mobile-first styles that make this form easy to fill out on a mobile phone. You should begin by including reset styles.
+
+Select for the form a CSS font stack based on commonly available system fonts. Then, enhance your font stack by loading and applying a Google font face that you think works well for form inputs.
+
+Bonus points for loading the Google font via both JavaScript, with a CSS-only fallback.
+
+## Resources & Hints
+
+* The Mozilla Developer Network (MDN) documentation and HTML element reference at
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element -- including the form, input,
+  and textarea elements and their attributes
+
+* The MDN documentation and CSS reference at
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+* The Mozilla Developer Network articles on form styling, linked from the course calendar to be
+  read for 2/8.
+
+* The Google Fonts directory at https://www.google.com/fonts
+
+* The CSS font-stacks reference at http://www.cssfontstack.com
+
+## Deliverables
+
+Fine-grained, atomic commits to your Production Problems repository that showcase your work on:
+
+* Improvements to the form HTML in the `index.html` file in this directory (`week-04`); be sure
+  to run it through the HTML validator at http://validator.w3.org/ to make sure it's valid HTML
+  (it deliberately contains a number of errors that you must fix).
+
+* Baseline, mobile-first form styles, including reset styles, in a `screen.css` file that you must
+  create.

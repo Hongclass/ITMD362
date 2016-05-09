@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Custom Site Styles */
+
+/*
+  Use the text-size-adjust property
+  to prevent automatically inflating
+  text on orientation changes
+  (portrait to landscape on a phone,
+  for example):
+*/
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ie-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/*
+  Rather than hard-code something like
+  colons in a form's <label>, like
+  <label>Username:</label>, leave the
+  colons out and generate them with
+  CSS, if wanted:
+*/
+label:after {
+  content: ": ";
+}
+
+/*
+  For the mobile-first design, set all
+  form elements to be the full width of
+  the screen, and displayed as block-
+  level elements, not inline (default):
+*/
+input,textarea,label {
+  width: 100%;
+  display: block;
+}
+
+/* Put some space above the labels: */
+label {
+  margin-top: 1em;
+}
+
+/*
+  Now, make sure that we can add
+  padding (and border, if desired)
+  to form elements while maintaining
+  width: 100%; -- we do that with the
+  box-sizing property set to border-box.
+  See https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+*/
+input,textarea,#jsubmit {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  background: #DDD;
+  font-size: inherit;
+  font-family: sans-serif;
+  line-height: 1;
+  padding: 1em;
+}
+/*
+  Using the .nojs utility class to push
+  #submit down by an em on JavaScript-less
+  views of the page:
+*/
+.nojs #submit {
+  margin-top: 1em;
+}
+/*
+  Here come the fancy-pants styles, prefixed
+  by the .js (JavaScript) utility class that
+  jQuery adds to HTML:
+*/
+.js #jsubmit.active, /* jQuery will add .active to #jsubmit (JavaScript-added button) */
+.js #email {
+  /* The fancy-pants inline-block display style: */
+  display: inline-block;
+}
+/* When JavaScript is active, hide the #submit, and the #jsubmit button: */
+.js #submit,
+.js #jsubmit {
+  display: none;
+  /* But set the width to 30% for when we see it... */
+  width: 30%;
+}
+/* And set #email to 60% of the screen */
+.js #email {
+  width: 60%;
+}
+
+/* Fancy UI Styles */
+
+.js #jsubmit {
+  visibility: hidden;
+  display: inline-block;
+  opacity: 0;
+  background: #FF0;
+  -moz-transition: opacity 2s, background 3s;
+  -webkit-transition: opacity 2s, background 3s;
+  transition: opacity 2s, background 3s;
+}
+.js #jsubmit.active {
+  visibility: visible;
+  background: #00F;
+  opacity: 1;
+}

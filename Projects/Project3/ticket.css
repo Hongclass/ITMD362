@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-box {width:1000px; margin:10px auto 0;}
+.bannerBorder {height:8px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Toursimg3/tbg.png) repeat-x;}
+.banner {position:relative;}
+.banner-dot {position:absolute; right:0; bottom:0; width:130px; height:40px;}
+.banner-dot a {float:left; width:12px; height:12px; margin-right:16px; background-color:#fff;}
+.banner-now {background-color:#c1eb41 !important;}
+.searchBox {height:52px; margin-top:15px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) no-repeat;}
+.searchContent {float:right; width:660px; height:42px; border:#f67b29 5px solid; background: url(http://img1.chinatraveldepotstatic.com/PubImages/Toursimg3/tbg.png) 0 -64px no-repeat;}
+.searchInput {float:left; padding-left:40px;}
+.searchInput input[type="text"] {width:480px; height:40px; line-height:40px; *height:38px; *line-height:38px; font-size:24px; color:#666; border:0; outline:none;}
+.btnSearch {float:right; width:128px; height:42px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -60px;}
+.left720 {float:left; width:720px;}
+.destinations-box {border:#ccc 1px solid; border-top:#60b3d5 2px solid;}
+.tag-bg {position:relative; height:38px;}
+.tag-bg .more-tag {position:absolute; top:11px; right:15px;}
+.destinations-box .tag-bg {background-color:#f0f7fa;}
+.left720 h2 {float:left; width:134px; padding-left:16px; line-height:38px; font-size:14px; background-color:#fff;}
+.tag-box {float:left;}
+.tag-box li {float:left;}
+.tag-box a {display:block; height:38px; line-height:38px; padding:0 20px; text-decoration:none;}
+.destinations-box .tag-ON {background-color:#60b3d5; color:#fff;}
+.hot4-box {padding:20px 16px; padding-right:0; overflow:auto;}
+.hot-ticket {float:left; width:160px; height:200px; margin-right:15px; background-color:#f3f3f3;}
+.hot-ticket-info {padding:10px; padding-bottom:0;}
+.hot-ticket-name {height:30px; overflow:hidden;}
+.hot-ticket-name a {color:#333;}
+.hot-ticket-price {font-size:20px; color:#f60;}
+.hot-ticket-sale {color:#999; margin-left:10px;}
+.theme-box {border:#ccc 1px solid; border-top:#a6804e 2px solid; margin-top:20px;}
+.theme-box .tag-bg {background-color:#f5efe7;}
+.theme-box .tag-bg a {color:#7c5420;}
+.theme-box .tag-ON {background-color:#a6804e; color:#fff !important;}
+.right260 {float:right; width:260px; border:#ccc 1px solid;}
+.right260 h3 {height:38px; line-height:38px; background-color:#f3f3f3; font-size:14px; padding-left:10px;}
+.latest-review {margin:10px; margin-bottom:0; padding-bottom:10px; border-bottom:#dedede 1px solid;}
+.review-title {padding-left:26px; min-height:20px;}
+.small-good {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -110px no-repeat;}
+.small-bad {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -150px no-repeat;}
+.jewel, .jewel0b, .jewel1, .jewel1b, .jewel2, .jewel2b, .jewel3, .jewel3b, .jewel4, .jewel4b, .jewel5 {display:inline-block; height:11px; vertical-align:middle; font-size:1px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Hotel2Img/h_bg.png) -70px -128px no-repeat;}
+.jewel {width:70px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Hotel2Img/h_bg.png) 0 -128px no-repeat;}
+.jewel0b {width:7px;}
+.jewel1 {width:14px;}
+.jewel1b {width:21px;}
+.jewel2 {width:28px;}
+.jewel2b {width:35px;}
+.jewel3 {width:42px;}
+.jewel3b {width:49px;}
+.jewel4 {width:56px;}
+.jewel4b {width:63px;}
+.jewel5 {width:70px;}
+.color999 {color:#999;}
+
+.head-line {padding:20px 10px 5px; border-bottom:#a3c7e3 1px solid; font-size:24px; font-weight:400;}
+.left220 {float:left; width:220px;}
+.research-box {padding:10px; background-color:#fff4d9; border:#ffd6a4 1px solid;}
+.research-box h2 {font-size:14px; color:#f80;}
+.research-box input[type="text"] {width:95%; height:28px; line-height:28px; *height:26px; *line-height:26px; font-size:14px; padding-left:5px; color:#666; border:#ffaf59 1px solid; outline:none; margin-top:8px;}
+.btn-small-search {display:block; width:90px; height:30px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -280px -60px;}
+.ticket-rank {border:#ddd 1px solid; border-top:#2da1e7 2px solid; margin-top:10px;}
+.left220 h3 {height:35px; line-height:35px; border-bottom:#ddd 1px solid; font-size:14px; color:#555; padding-left:10px;}
+.rank-list {padding:0 9px 10px;}
+.rank-list li {border-bottom:#eee 1px solid; padding-bottom:10px; margin-top:10px;}
+.rank-list p {padding-left:20px;}
+.rank-1 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -190px no-repeat;}
+.rank-2 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -200px -190px no-repeat;}
+.rank-3 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -230px no-repeat;}
+.rank-4 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -200px -230px no-repeat;}
+.rank-5 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -270px no-repeat;}
+.rank-6 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -200px -270px no-repeat;}
+.rank-7 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -310px no-repeat;}
+.rank-8 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -200px -310px no-repeat;}
+.rank-9 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -350px no-repeat;}
+.rank-10 {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -200px -350px no-repeat;}
+.price {color:#f60;}
+.right760 {float:right; width:760px;}
+.narrow-box {border:#ccc 1px solid; padding:10px 20px; line-height:20px; margin-bottom:20px;}
+.narrow-box li {margin-top:5px; overflow:auto;}
+.narrow-box li p {float:left;}
+.p-w-1 {width:60px;}
+.p-w-2 {width:656px;}
+label {margin-right:20px;}
+.sort-box {height:33px; background-color:#eef8ff; border-top:#2da1e7 2px solid;}
+.sort-box li {float:left; width:90px; color:#fff; line-height:32px; text-align:center; border-right:#bee1f9 1px solid; border-left:#fff 1px solid; border-top:#f3f3f3 1px solid;}
+.sort-box a {color:#333;}
+.sort-down {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 100% -110px no-repeat; padding-right:10px;}
+.sort-up {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 100% -150px no-repeat; padding-right:10px;}
+.result {float:left; line-height:22px;}
+.page {float:right;}
+.page li {float:left; margin-right:5px;}
+.page a {display:block; border:#5c9cc2 1px solid; padding:3px 7px; text-align:center; text-decoration:none;}
+a.thisPage {background-color:#5c9cc2; color:#fff;}
+.ticket-box {border:#cdcdcd 1px solid; margin-top:10px; padding:20px; background-color:#fff; overflow:auto;}
+.ticket-info {position:relative; float:left; margin-left:10px; width:548px; height:120px;}
+.ticket-name {color:#666;}
+.ticket-name a {font-size:18px; margin-right:10px;}
+.ticket-address {margin-top:3px;}
+.ticket-address a {font-style:italic;}
+.ticket-price {position:absolute; right:0; bottom:0; width:120px; height:60px; text-align:right;}
+.price-from {height:24px; color:#999;}
+.btn-detail {float:right; width:90px; height:30px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -130px -60px;}
+.ticket-tag-box {clear:both; padding-top:10px; height:31px; border-bottom:#f90 1px solid;}
+.ticket-tag-box a {display:block; margin-left:5px; height:30px; line-height:30px; padding:0 10px; background-color:#f9f9f9; border:#ddd 1px solid; border-bottom:#f90 1px solid; color:#333; text-decoration:none;}
+a.ticket-tag-ON {background-color:#fff; border:#f90 1px solid; border-bottom:#fff 1px solid; font-weight:700;}
+.list-title-box {float:left; padding-left:128px; color:#999; line-height:30px;}
+.list-title-box span {margin-left:32px;}
+.ticket-list {padding:12px 16px; border-bottom:#dedede 1px solid; overflow:auto;}
+.ticket-list strong {font-size:12px;}
+.ticket-list li {float:left; line-height:24px;}
+.w1 {width:330px; padding-right:20px;}
+.w2 {width:90px;}
+.w3 {width:60px;}
+.w4 {width:480px; padding-right:20px;}
+.w5 {width:120px;}
+.btn-small-book {display:block; width:60px; height:24px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -220px -60px;}
+.btn-small-detail {display:block; width:60px; height:24px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -220px -84px;}
+.price-on-ticket {color:#999; text-decoration:line-through;}
+.ctd-price {font-size:18px; color:#f60;}
+.limit-all-box {padding:10px 16px 0; color:#c00; overflow:auto;}
+.show-arrow-bg {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 35% -390px no-repeat; padding-right:16px;}
+.hide-arrow-bg {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 100% -390px no-repeat; padding-right:16px;}
+.show-arrow {display:inline-block; width:10px; height:5px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -190px -396px; margin-left:5px; vertical-align:1px; *vertical-align:5px;}
+.hide-arrow {display:inline-block; width:10px; height:5px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -390px -396px; margin-left:5px; vertical-align:1px; *vertical-align:5px;}
+.ticket-intro-arrow {clear:both; height:5px; padding-top:5px; *padding-top:0; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -415px no-repeat; *background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -420px no-repeat;}
+.ticket-intro {background-color:#f5f5f5; padding:10px 20px;}
+
+.detail-line {padding:10px; padding-top:20px; border-bottom:#a3c7e3 1px solid; overflow:auto;}
+.detail-line-L {float:left; width:700px;}
+.detail-line-L p a {font-style:italic;}
+.detail-line-R {float:right; width:260px;}
+.detail-line-R p {float:right; line-height:38px;}
+.detail-line h1 {font-size:22px; font-weight:400;}
+.btn-book-now {display:block; width:120px; height:38px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -430px;}
+.left530 {float:left; width:530px;}
+.tour-detail {height:275px; padding:15px 20px 0; background-color:#eaeff4; border:#1e89b5 5px solid; font-size:14px; overflow:hidden;}
+.tour-detail li {padding-left:10px; margin-top:5px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Toursimg3/tbg.png) 0 -876px no-repeat; line-height:20px;}
+.tour-detail a {color:#666; text-decoration:underline;}
+.highlights {font-size:18px; padding-bottom:5px; margin-bottom:10px; border-bottom:#ccc 1px solid; color:#369;}
+.tour-photo {float:right; width:456px; height:300px;}
+.small-photo-box {float:right; position:relative; width:50px; height:300px;}
+.small-photo-up {position:absolute; top:0; width:50px; height:15px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Toursimg3/tbg.png) 0 -390px;}
+.small-photo-down {position:absolute; bottom:0; width:50px; height:15px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Toursimg3/tbg.png) -50px -390px;}
+.small-photo {position:absolute; top:20px; width:46px; padding:0 2px; height:260px;}
+.small-photo p {border:#ddd 1px solid; padding:2px; margin-bottom:5px;}
+.this-photo {border:#55abe7 3px solid !important; padding:0 !important;}
+.guide {margin-bottom:10px; height:42px; line-height:42px; font-size:14px; background-color:#8fc32b;}
+.guide li {float:left; border-right:#6aa101 1px solid; border-left:#d8eab5 1px solid;}
+.guide li a {display:block; height:42px; padding:0 10px; color:#fff; text-align:center; text-decoration:none;}
+.thisGuide {background-color:#2e87c5;}
+.top {float:left; height:42px; border-left:#d8eab5 1px solid; padding-left:20px;}
+.top a {color:#fff; padding-right:12px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Toursimg3/tbg.png) 100% -363px no-repeat;}
+.toolBox {float:right; width:240px; padding-top:6px;}
+.toolBox a {float:left; width:30px; height:30px; margin-right:10px;}
+.facebook {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 0 -600px;}
+.twitter {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -30px -600px;}
+.pinterrest {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -60px -600px;}
+.pdf {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -90px -600px;}
+.print {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -120px -600px;}
+.favorite {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -150px -600px;}
+.border-ed {border:#ddd 1px solid; font-size:14px;}
+.blackTitle {height:42px; background-color:#43403d;}
+.border-ed h2 {width:280px; height:42px; line-height:42px; padding-left:18px; font-size:20px; font-weight:400; color:#fff; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Toursimg3/tbg.png) 100% -630px no-repeat #38aff0;}
+.border-ed h2 span {color:#9bd6f7; margin-right:10px;}
+.ticket-detail-bg {background-color:#eee; border:#eee 1px solid; font-size:14px;}
+.ticket-type {height:40px; line-height:40px; padding-left:10px; background-color:#eee;}
+.ticket-type p {float:left; font-weight:700;}
+.ticket-detail-title {float:right; padding-right:120px; font-size:12px !important; color:#999;}
+.ticket-detail-title span {margin-left:32px;}
+.ticket-detail-box {border:#eee 1px solid; border-top:none; padding:0 10px 10px;}
+.ticket-detail-list {padding:10px 0; background-color:#fff; border-bottom:#ddd 1px dashed; overflow:auto;}
+.ticket-detail-list strong {font-size:12px;}
+.ticket-detail-list li {float:left; line-height:24px;}
+.w6 {width:550px; padding-right:20px;}
+.booking-notice {padding:20px; padding-top:10px;}
+ol {list-style:decimal; padding-left:20px;}
+ol li {margin-top:5px; line-height:20px;}
+.reviewBox {border:#ccc 1px solid;}
+.reviewT {height:49px; line-height:49px; padding:0 20px; border-bottom:#ccc 1px solid; background-color:#f6f6f6; font-size:18px; color:#0f8ace;}
+.Good {display:inline-block; width:20px; height:20px; margin-left:5px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/rbg1.png) -60px -56px;}
+.detail-review {padding:20px; padding-right:40px; border-bottom:#eee 1px solid;}
+.detail-reviewL {float:left; width:160px; font-size:12px !important;}
+.recommend {height:31px; padding-top:5px; padding-left:45px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Hotel2Img/h_bg.png) -144px -420px no-repeat; color:#999; line-height:12px;}
+.detail-reviewR {float:right; width:730px;}
+.detail-reviewR dt {font-size:18px; color:#666;}
+.detail-reviewR dd {padding-top:5px; font-size:14px; line-height:20px;}
+.write-review {float:right; width:140px; height:34px; margin-top:8px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -260px -430px;}
+.all-reviews {padding:20px; font-size:12px !important;}
+.traffic-guide {line-height:20px; margin-top:10px;}
+.w7 {width:620px; padding-right:20px;}
+.w8 {width:140px;}
+.surrounding-title {float:right; padding-right:146px; font-size:12px !important; color:#999;}
+.surrounding-title span {margin-left:66px;}
+
+.order-box {border:#2da1e7 3px solid; padding:20px; margin-top:20px;}
+.order-title {height:30px; border-bottom:#ddd 2px solid;}
+.order-title h2 {float:left; font-size:20px; font-weight:400; line-height:30px; border-bottom:#2a98da 2px solid;}
+.order-title h2 a {text-decoration:none;}
+.order-detail {padding:0 40px;}
+.order-detail h3 {border-bottom:#ddd 1px solid; font-size:18px; font-weight:400; line-height:30px; margin-top:30px;}
+.order-ticket {font-size:14px; padding-left:10px; margin-top:10px;}
+.order-option {margin-top:10px; font-size:14px; padding-left:10px; overflow:auto;}
+.order-option li {float:left; line-height:24px; margin-bottom:8px;}
+.order-option input[type="text"] {height:20px; line-height:20px; border:#ccc 1px solid; outline:none;}
+.date-input {background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 100% -600px no-repeat;}
+.w9 {width:124px; text-align:right; padding-right:8px;}
+.w10 {width:730px;}
+.w10 a {text-decoration:none;}
+.btn-subtract {float:left; width:22px; height:22px; line-height:18px; *line-height:22px; font-size:20px; text-align:center; border:#ccc 1px solid; border-right:none;}
+.btn-add {float:left; width:22px; height:22px; line-height:18px; *line-height:22px; font-size:20px; text-align:center; border:#ccc 1px solid; border-left:none;}
+.booking-box {padding:20px 40px 0; font-size:14px; overflow:auto;}
+.booking-box li {float:left; line-height:24px; margin-bottom:8px;}
+.booking-box input[type="text"] {width:135px; height:20px; line-height:20px; padding-left:5px; border:#ccc 1px solid; outline:none;}
+.w11 {width:200px;}
+.w12 {width:350px;}
+.red {color:#f00;}
+.total-box {height:66px; padding:0 20px; background-color:#fff4d9; border:#ffd6a4 1px solid; border-top:#ffa63c 2px solid; margin-top:20px; font-size:20px; line-height:66px;}
+.payment-note {float:left; width:420px; line-height:16px; background-color:#fff; border:#ccc 1px solid; padding:6px 10px; margin-left:10px; margin-top:10px; font-size:12px !important; color:#666;}
+.btn-continue {display:block; width:120px; height:38px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) -130px -430px; margin-top:14px;}
+
+.all-destinations {font-size:24px; font-weight:400; padding:20px 10px 5px;}
+.all-destinations-box {background-color:#f5f5f5; padding:20px; padding-top:0; overflow:auto;}
+.all-destinations-box h2 {clear:both; float:none; font-size:18px; font-weight:400; line-height:30px; border-bottom:#ddd 1px solid; padding-top:20px;}
+.all-destinations-box li {float:left; width:240px; font-size:14px; margin-top:10px;} 
+.destinations-li {width:480px !important;}
+
+.success {font-size:18px; font-weight:400; color:#090; padding:30px 50px 0 150px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Tickets/tbg.png) 115px -680px no-repeat;}
+.traveler-box {padding:10px 20px; margin-top:30px; background-color:#f2f2f2; font-size:14px; font-weight:700; text-align:center;}
+.traveler-box span {color:#f60;}
+.btnPayNow {display:block; width:300px; height:50px; margin:20px auto 0; background: url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/pn.jpg);}
+.info-box {padding:10px 20px; margin-top:20px; border:#2da1e7 3px solid; zoom:1;}
+.info-box h2 {font-size:18px; font-weight:400;}
+.info-box td {padding-right:10px; font-size:14px; height:24px;}
+.addS {border-top:#999 1px dashed; padding-top:10px; margin-top:5px; font-size:18px;}
+
+.search-title {font-size:18px;}
+.search-title span {color:#f60;}
+.search-type {font-size:18px; color:#666;}
+.search-result {background-color:#f7f7f7; padding:10px; margin-top:10px; border-top:#a3c7e3 1px solid;}
+.search-result .ticket-info {width:528px;}
+.city-result {background-color:#fff; border:#cdcdcd 1px solid; padding:10px 20px; margin-top:10px; font-size:18px;}
+
+.left220 h4 {height:35px; line-height:35px; border-bottom:#ddd 1px solid; font-size:12px; padding-left:10px;}
+.city-themes {padding:0 9px 10px;}
+.city-themes li {border-bottom:#eee 1px solid; padding-left:12px; line-height:30px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Hotel2Img/h_bg.png) -187px -373px no-repeat;}

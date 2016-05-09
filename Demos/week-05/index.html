@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Hello, World</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+  <form action="#" method="get" id="signup">
+    <p>Subscribe to our newsletter!</p>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" pattern="^.+@.+$" />
+    <input type="submit" id="submit" name="submit" value="Subscribe" />
+  </form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+(function($) {
+  $('html').removeClass('nojs').addClass('js');
+  $('#email').keyup(function() {
+    var value = $(this).val();
+    var pattern = $(this).attr('pattern');
+    if(value.match(pattern)) {
+      $('#submit').addClass('active');
+    }
+  });
+})(jQuery);
+</script>
+
+</body>
+</html>

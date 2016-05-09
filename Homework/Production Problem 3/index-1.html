@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Information Form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" href="screen.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <!-- load fonts via CDN -->
+<link href="//fonts.googleapis.com/css?family=Flamenco" rel="stylesheet" type="text/css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+<script>
+  // check that fonts loaded via CDN
+  function fontLoaded() {
+    var cdnFont = false;
+    for (var i = 0; i < document.styleSheets.length; i++) {
+      var font = document.styleSheets[i];
+      if (
+        font['href'] == "//fonts.googleapis.com/css?family=Flamenco" &&
+        font['href'] == "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      ) {
+        cdnFont = true;
+      }
+    };
+    return cdnFont;
+  }
+
+  // if fonts didn't load via CDN, load from local assets directory
+  if (!fontLoaded('font-awesome.css')) {
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "/assets/fonts/local-fonts.css";
+    document.getElementsByTagName("head")[0].appendChild(link);
+  }
+</script>
+
+</head>
+   
+  <body>
+    <form action="#" method="get" id="login" enctype="multipart/form-data">
+      <label for="username">Username</label>
+      <input type="text" id="username" maxlength="4" name="username" />
+      
+      <label for="telephone">Telephone</label>
+      <input type="tel" id="telephone" name="telephone" />
+      
+      <label for="biography">Biography</label>
+      <textarea id="biography"></textarea>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email"/>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" />
+      
+      <input type="submit" id="submit" name="Submit" />
+    </form>    
+  </body>
+</html>

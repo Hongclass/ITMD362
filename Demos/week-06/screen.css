@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom site styles */
+/*
+  Using Minor Third Modular Scale:
+  http://www.modularscale.com/?18&px&1.2&web&text
+*/
+
+html {
+  font-size: 1.125em; /* 18px/16px = 1.125 */
+  line-height: 1.44em; /* 25.92px / 18px */
+  padding-top: 1.44em; /* 25.92px / 18px */
+  padding-left: 1.200em; /* 5:6 ratio on baseline */
+  padding-right: 0.600em; /* half the 5:6 ratio */
+}
+
+h2 {
+  font-size: 1.728em; /* 31.104px / 18px */
+  line-height: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
+  padding-top: 0.8333333333333334em; /* 25.92px / 31.104 */
+  padding-bottom: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 1.44em;
+}
+/* TODO: Change media query to em units */
+@media screen and (min-width: 650px) {
+  figure {
+    position: relative;
+  }
+  img {
+    width: 54.54545455%;
+    margin-left: 45.45454545%;
+  }
+  figcaption {
+    width: 45.45454545%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .flexbox figure {
+    position: static;
+    display: flex;
+  }
+  .flexbox img {
+    width: auto;
+    margin-left: 0;
+  }
+  .flexbox figcaption {
+    width: 0;
+    position: static;
+    top: auto;
+    left: auto;
+  }
+}

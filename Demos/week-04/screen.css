@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Site Styles */
+
+/*
+  Use the text-size-adjust property
+  to prevent automatically inflating
+  text on orientation changes
+  (portrait to landscape on a phone,
+  for example):
+*/
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ie-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/*
+  Rather than hard-code something like
+  colons in a form's <label>, like
+  <label>Username:</label>, leave the
+  colons out and generate them with
+  CSS, if wanted:
+*/
+label:after {
+  content: ": ";
+}
+
+/*
+  For the mobile-first design, set all
+  form elements to be the full width of
+  the screen, and displayed as block-
+  level elements, not inline (default):
+*/
+input,textarea,label {
+  width: 100%;
+  display: block;
+}
+
+/* Put some space above the labels: */
+label {
+  margin-top: 1em;
+}
+
+/*
+  Now, make sure that we can add
+  padding (and border, if desired)
+  to form elements while maintaining
+  width: 100%; -- we do that with the
+  box-sizing property set to border-box.
+  See https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+*/
+input,textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  background: #DDD;
+  font-size: inherit;
+  font-family: sans-serif;
+  padding: 1em;
+}

@@ -1,0 +1,36 @@
+$primaryColor: #FFF;
+
+$serifTypeface: Palatino, Georgia, Times;
+$primaryTypeface: $serifTypeface;
+
+// Sass Function Directives reference:
+//http://sass-lang.com/documentation/file.SASS_REFERENCE.html#function_directives
+//
+// This function can now output an em unit anywhere,
+// not one coupled to `font-size`:
+@function toEms($target,$context: 16px) {
+  @return $target/$context * 1em;
+}
+
+html {
+  color: darken($primaryColor,.5);
+  // Default context is 16px, so no need to repeat it
+  font-size: toEms(23px);
+}
+
+h1 {
+  // Different context, 23px, so we pass it to the function
+  font-size: toEms(32px,23px);
+}
+
+nav {
+  background: $primaryColor;
+  .something {
+    color: white;
+  }
+  .sidebar & {
+    background: lighten($primaryColor,.2);
+  }
+}
+
+

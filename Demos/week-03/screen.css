@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Site Styles */
+
+/*
+    Based on a Minor Third (6:5) Ratio; see Modular Scale:
+    http://www.modularscale.com/?18&px&1.2&web&text
+*/
+
+body {
+  color: #222; /* Never quite true black */
+  background: #FAFAFA; /* A little grayer than true white */
+  font-size: 1.125em; /* 18px base font size */
+  line-height: 1.44em; /* 25.92px baseline grid */
+}
+
+h2 {
+  font-size: 2.074em; /* 37.325px */
+  line-height: 1.0437583893em; /* 38.88px grid (1.5 baselines) -> 51.84/37.325 = 1.0437583893em */
+  font-weight: bold;
+}
+
+cite {
+  font-style: italic;
+}
+
+p {
+  text-indent: 9.09090909%; /* Use one of 7-column grid to indent * */
+}
+
+h2 + p {
+  text-indent: 0; /* But don't indent at all on paragraphs immediately following h2 */
+}
+
+h2 + p::first-line {
+  font-variant: small-caps; /* This is ugly; with OpenType, we can make it better */
+}
+
+#page {
+  margin: 1.728em 2.16em 1.44em 1.44em; /* Use 6:5 ratio w/ baseline grid for mobile-first margins */
+}
+
+
+@media screen and (min-width: 790px) { /* Leaving media query in pixels for class demo */
+  h1, h2 {
+    position: absolute; /* Pull headings out of the document flow */
+  }
+  h1 {
+    top: .72em; /* 12.96px = .5 gridlines 12.96/18px = */
+  }
+  h2 {
+    top: 3.4722036169em; /* 129.6px = 5 gridlines 129.6px/37.325px = 3.4722036169em */
+  }
+  #page {
+    margin: 21.81818181% 27.27272727% 1.44em 18.18181818%;
+    /* Top margin makes for the 6:5 ratio of the left one-column margin */
+    /* 21.81818181 / 11 = 1.9834710736% */
+  }
+}

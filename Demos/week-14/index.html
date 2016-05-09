@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Log In</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+  <form action="#" method="get" id="login">
+    <h2>Log In</h2>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" pattern="^.+@.+$" />
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" />
+    <input type="submit" id="submit" name="submit" value="Log In" />
+  </form>
+
+<script src="shoestring.js"></script>
+<script>
+(function($) {
+  // Add JavaScript utility class
+  $('html').removeClass('nojs').addClass('js');
+  // Add an <a>-based submit/log in button
+  $('#password').after('<a href="#null" id="jsubmit">Log In</a>');
+  // Only show the submit button once there's at least 2 characters in password
+  $('#password').bind('keyup', function() {
+    var value = $(this).val();
+    if (value.length > 1) {
+      $('#jsubmit').addClass('active');
+    }
+  });
+
+
+  // Function to handle what happens when a test user enters a password...
+  var hasFailed = false;
+  $('#jsubmit').bind('click', function(e) {
+    $('#warning').remove();
+    if(fiftyFifty() || hasFailed) {
+    // send the user to the welcome screen
+      var siteHost = location.host;
+      location.href = siteHost + '/welcome.html';
+    } else {
+    // flash an error message on the form
+      $('#login h2').after('<div id="warning">Username/password not found.</div>');
+      $('#password').val('');
+      hasFailed = true;
+    }
+    e.preventDefault();
+  });
+
+  var fiftyFifty = function() {
+    var myNum = Math.round(Math.random() * 10);
+    if (myNum % 2 == 0) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+
+
+})(shoestring);
+</script>
+
+</body>
+</html>

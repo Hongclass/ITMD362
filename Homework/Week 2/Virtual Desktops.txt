@@ -1,0 +1,24 @@
+Virtual Desktops
+
+I use Windwos 10 as my operating sytem. Windwos 10 adds a new function which is Virtual Desktops. Now, I can use mouse to create multiple Virtual Desktops. 
+Step 1: 
+Use mouse to click Task View as the picture, Virtual Desktops - step 1.jpg showing. 
+Step 2:
+Add new desktop as the picture, Virtual Desktops - step 2.jpg showing.
+Step 3:
+Manage these three multiple Virtual Desktops. 
+The first one has the apps of my everyday web browser, Chrome and my usually using apps. 
+The second one has the apps of command-line shell and text editor. 
+The third one has the app of my develpment browser, Firefox. 
+
+Now is the time for keyboard operation. 
+Command for creating a new virtual desktop and switch to it: Windows Key + Ctrl + D.
+Command for closing the current virtual desktop: Windows Key + Ctrl + F4.
+Command for viewing whole three Virtual Desktops: Windows Key + Tab.
+Command for switch to the virtual desktop on the left, bottom or right: Windows Key + Ctrl + Left / Right.
+Command for opening the app pinned to the taskbar in the position indicated by the number: Windows Key + Number.
+
+Now, go to the the first Virtual Desktop and showing all opened app as showing Virtual Desktop 1.jpg.
+Next is the second one as showing Virtual Desktop 2.jpg.
+Finally, I capture the third one as showing Virtual Desktop 3.jpg.
+

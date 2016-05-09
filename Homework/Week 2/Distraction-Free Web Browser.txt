@@ -1,0 +1,4 @@
+Distraction-Free Web Browser
+
+I use Google Chrome's Application Shortcut feature to create a distraction-free web browser. 
+All you have to do to is open the Google Chrome Tools menu (by clicking the wrench icon in the upper-right corner of your Chrome browser) and select Create Application Shortcut. Next, choose where you want Chrome to create the application shortcut, and you'll get a stand-alone app that will display only that one site.

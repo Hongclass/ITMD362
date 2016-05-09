@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<title>Hong's Bakery House</title>
+	  	<meta charset="utf-8" />
+	  	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+	  	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	  	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+   		<script src="js/jquery.js"></script>
+   		<script src="js/jquery.validate.js"></script>
+   		<script src="js/myscript.js"></script>
+	 	<script>
+			$.validator.setDefaults({
+				submitHandler: function() {
+					form.submit();
+				}
+			});
+
+			$().ready(function() {
+				// validate login form on keyup and submit
+				$("#login").validate({
+					messages: {
+						email: "Please enter a valid email address"
+					}
+				});
+			});
+		</script>
+ 	</head>
+
+	<body>
+		<header id="header">
+				<a id="logo1" href="index.html"><img src="images/bread.jpg" alt="Hong's Bakery House"></a>
+				<h1>Hong's Bakery House</h1>
+				<h2>Good day begins with our bread!</h2>
+		</header>
+
+		<div id="content-wrapper">
+			<form id="login" action="#" method="get">
+					<label>Get Bread Menu And Goupon!</label>
+					<label>Email Address: </label>
+					<input type="email" name="email" id="email" placeholder="you@example.com" />
+					<input type="image" src="images/send-button.png" alt="Submit" id="send" />
+
+	        </form>	
+
+			<p class="text"><span class="capital1">O</span>ur bekery house offer homemade fresh baked bread. Different style of bread is made everyday and we update our bread menu every week.</p> 
+
+					<p class="text"><span class="capital1">Open Hour: </span></p>
+					<p class="text">Monday - Friday: 6:45 AM - 6:30 PM</p>
+					<p class="text">Saturday: 6:45 AM - 5:30 PM</p>
+					<p class="text">Sunday 9:00 AM - 2:30 PM</p>
+		</div>
+ 
+	</body>
+
+</html>

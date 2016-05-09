@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Subscribe</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+  <form action="#" method="get" id="signup">
+    <h2>Subscribe to our newsletter!</h2>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" pattern="^.+@.+$" />
+    <input type="submit" id="submit" name="submit" value="Subscribe" />
+    <input type="hidden" id="variant" name="variant" value="a,subscribe-copy" />
+  </form>
+<script src="shoestring.js"></script>
+<script>
+(function($) {
+  // Add JavaScript utility class
+  $('html').removeClass('nojs').addClass('js');
+  // Add an <a>-based submit/log in button
+  $('#email').after('<a href="#null" class="active" id="jsubmit">Subscribe Now!</a>');
+  // Only show the submit button once there's at least 2 characters in password
+  $('#email').bind('keyup', function() {
+    var value = $(this).val();
+    if (value.length > 1) {
+      $('#jsubmit').addClass('active');
+    }
+  });
+
+  // A/B Testing Scripts...
+
+  var fiftyFifty = function() {
+    var myNum = Math.round(Math.random() * 10);
+    if (myNum % 2 == 0) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+
+  if(fiftyFifty()) {
+    $('html').addClass('b');
+    $('#signup h2').html('Get web design tips every day!');
+    $('#variant').val('b,get-tips-copy');
+    console.log('B test!');
+  }
+
+})(shoestring);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, blockquote, caption, th, td, img, form, fieldset, legend, label, button, textarea { margin:0; padding:0; }
+body { font:12px arial, helvetica, clean, sans-serif; color:#333; background-color:transparent; background-repeat:repeat; background-position:0 0; word-wrap:break-word; -webkit-text-size-adjust:none; }
+input, select, textarea { font-family:arial;  color:#333; }
+select { height:20px; line-height:16px; }
+label, a.label { text-decoration:none; cursor:pointer; }
+label:hover, a.label:hover { color:#333; text-decoration:none; }
+img { border:0; vertical-align:middle; }
+a:link, a:visited, a:active { color:#369; text-decoration:none; }
+a:hover { color:#369; text-decoration:underline; }
+ul, ol { list-style:none; }
+h1 { font-size:18px; }
+h2 { font-size:14px; }
+h3 { font-size:12px; }
+.fC { margin:0 auto; }
+.fL { float: left; }
+.fR { float: right !important; }
+.clear { float: none; clear: both}
+.textC { text-align:center; }
+.textR { text-align:right; }
+.p5 { padding:5px; }
+.p10 { padding:10px; }
+.p20 { padding:20px; }
+.pT5 { padding-top:5px; }
+.pT10 { padding-top:10px; }
+.pT20 { padding-top:20px; }
+.pL5 { padding-left:5px; }
+.pL10 { padding-left:10px; }
+.pL20 { padding-left:20px; }
+.m5 { margin:5px; }
+.m10 { margin:10px; }
+.m20 { margin:20px; }
+.mT5 { margin-top:5px; }
+.mT10 { margin-top:10px; }
+.mT20 { margin-top:20px; }
+.mL5 { margin-left:5px; }
+.mL10 { margin-left:10px; }
+.mL20 { margin-left:20px; }
+.priceFont1 {color:#f60; font-weight:700; font-size:14px;}
+.priceFont2 {color:#f60; font-weight:700; font-size:18px;}
+.priceFont3 {color:#f60; font-size:24px;}
+.borderNone {border:none !important;}
+
+
+/*====== header ======*/
+.headerBox {position:relative; width:1000px; height:118px; margin:10px auto 0; z-index:10; zoom:1;}
+.ctdLogo {position:absolute; top:10px; left:10px; width:152px; height:51px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) no-repeat;}
+.header {position:absolute; top:64px; left:10px; font-weight:400; font-size:12px; clear:both;}
+.topNav {position:absolute; left:0; bottom:0; width:995px; height:36px; padding-left:5px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 0 -51px repeat-x; font-weight:700; font-size:12px;}
+.topNav li {float:left;}
+.topNav a {display:block; padding:0 12px; line-height:36px;}
+.topNav a:link, .topNav a:visited {color:#fff; text-decoration:none;}
+.topNav a:hover {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 0 -187px repeat-x; text-decoration:none;}
+.nowC a:hover {background:none;}
+a.home:hover {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -144px -223px;}
+.home {width:36px; height:36px; padding:0 !important; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -144px -223px;}
+.deal {padding:0 12px !important; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 0 -187px repeat-x; text-align:center; border-left:#fff 1px solid; border-right:#fff 1px solid;}
+.more {width:113px; padding:0 0 0 20px !important; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 0 -115px repeat-x;}
+/*.topNav a:hover {height:34px; margin-top:1px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 0 -115px repeat-x; color:#369; line-height:34px; text-decoration:none;}*/
+.navL {position:absolute; top:0; left:0; width:4px; height:4px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -176px -87px no-repeat; font-size:1px;}
+.navR {position:absolute; top:0; left:996px; width:4px; height:4px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -176px -91px no-repeat; font-size:1px;}
+.nowL {float:left; width:15px; height:36px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 0 -151px no-repeat;}
+.nowR {float:left; width:15px; height:36px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -165px -151px no-repeat;}
+.nowC {float:left; height:36px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -18px -151px repeat-x; color:#369; line-height:38px; _line-height:36px;}
+.nowC a {padding:0 !important; color:#369 !important;}
+.slogan {margin:10px 0 0 60px;}
+.loginBox {position:absolute; width:600px; top:0; right:0; text-align:right;}
+
+.loginBox a {padding:0 8px; border-right:#ddd 1px solid;}
+.loginBox a:link, .loginBox a:visited {color:#369; text-decoration:none;}
+.loginBox a:hover {color:#369; text-decoration:underline;}
+.signfb {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -165px 2px no-repeat; padding-left:15px !important;}
+.site {display:inline-block; width:27px; height:11px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 8px -270px no-repeat; font-size:1px; vertical-align:middle; padding-right:0 !important; border-right:none !important;}
+.tools {position:absolute; bottom:42px; right:10px;}
+.tools a {display:block; width:19px; height:17px; margin:0 3px; float:left;}
+.tools span {display:block; height:17px; line-height:17px; margin-right:5px; float:left; text-align:center;}
+.iconF {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -57px -98px no-repeat; width:37px !important; text-align:right; font-size:11px; line-height:17px; padding-right:5px;}
+.iconT {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -99px -98px no-repeat;}
+.iconG {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -118px -98px no-repeat; width:27px !important;}
+.iconM {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 0 -98px no-repeat;}
+.iconP {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -19px -98px no-repeat;}
+.iconC {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -38px -98px no-repeat;}
+.numBg {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -145px -98px no-repeat; width:35px;}
+.subNav {position:absolute; top:35px; right:0; width:127px; border:#0057a7 3px solid; background-color:#fff; z-index:999;}
+.subNav li {float:none; border-bottom:#ccc 1px dashed; font-weight:400;}
+.subNav a {display:block; padding-left:16px; line-height:30px;}
+.subNav a:link, .subNav a:visited {color:#333; text-decoration:none;}
+.subNav a:hover {color:#369; text-decoration:underline;}
+.bbn {border-bottom:none !important;}
+.flagBox {border:#ccc 3px solid; padding:5px 5px 0; width:50px;}
+.flagBox li {height:20px;}
+
+.header-tools {position:absolute; width:180px; top:55px; right:10px;}
+.header-tools a {display:inline-block; width:20px; height:20px; background:url(http://img1.chinatraveldepotstatic.com/PubImages/Hotel2Img/h_bg.png); margin-left:15px;}
+a.header-fb {background-position:0 -630px;}
+a.header-gp {background-position:-20px -630px;}
+a.header-tw {background-position:-40px -630px;}
+a.header-favorite {background-position:-60px -630px;}
+a.header-phone {background-position:-80px -630px;}
+a.header-mail {background-position:-100px -630px;}
+a.header-fb:hover {background-position:0 -650px;}
+a.header-gp:hover {background-position:-20px -650px;}
+a.header-tw:hover {background-position:-40px -650px;}
+a.header-favorite:hover {background-position:-60px -650px;}
+a.header-phone:hover {background-position:-80px -650px;}
+a.header-mail:hover {background-position:-100px -650px;}
+
+.right-arrow {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 100% -289px no-repeat; padding-right:18px !important;}
+.my-popover {position:absolute; right:132px; top:16px; width:80px; padding:5px 10px; border:#ccc 1px solid; background-color:#fff;}
+.my-popover li {text-align:left; height:24px; line-height:24px;}
+.my-popover a {padding:0; border-right:none;}
+.ctd-search {position:absolute; top:28px; left:260px; padding:5px; background-color:#eee; overflow:auto;}
+.ctd-search input[type="text"] {width:320px; padding-left:10px; height:32px; line-height:32px; background-color:#fff; border:#ccc 1px solid; font-size:14px;}
+a.ctd-search-btn {display:block; width:75px; text-align:center; height:34px; line-height:34px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) 0 -115px repeat-x; border:#ccc 1px solid; border-left:none; font-size:14px; color:#666; text-decoration:none;}
+/*====== footer ======*/
+.footer {width:1000px; border:#ccc 1px solid; padding-bottom:10px;}
+.footNav {padding:10px 5px; background-color:#f7f7f7;}
+.footNav span {padding:0 18px;}
+.footNav a:link, .footNav a:visited {color:#333; text-decoration:none;}
+.footNav a:hover {color:#333; text-decoration:underline;}
+.topBox {width:950px; padding:15px 0; *padding:15px 0 0; border-bottom:#dfdfdf 1px solid;}
+/*.topBox p {clear:both; height:20px; border-bottom:#ddd 1px solid;}*/
+.topBox ul {float:left;}
+.topBox li {color:#333;}
+.topBox a:link, .topBox a:visited {color:#333; text-decoration:none;}
+.topBox a:hover {color:#333; text-decoration:underline;}
+.mR50 {margin-right:45px;}
+.mL40 {margin-left:50px;}
+/*.line {clear:both; height:20px; border-bottom:#ddd 1px solid;}*/
+.about {width:290px; padding-right:20px; border-right:#eee 1px solid; color:#333; margin:15px 0 0 25px; display:inline;}
+.about dt {margin-bottom:1em; font-weight:700;}
+.about dd {margin-bottom:1em;}
+.info {width:610px; color:#333; padding-right:20px; margin-top:15px;}
+.info span {display:inline-block; margin-right:5px; vertical-align:middle;}
+.info a:link, .info a:visited {color:#333; text-decoration:none;}
+.info a:hover {color:#333; text-decoration:underline;}
+.info li {margin-bottom:1em; line-height:16px;}
+.us {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -11px -223px no-repeat; margin-right:10px; padding-left:20px;}
+.jp {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -11px -238px no-repeat; margin-right:10px; padding-left:20px;}
+.cn {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/h_bg2.jpg) -11px -253px no-repeat; margin-right:10px; padding-left:20px;}
+.partner {width:900px; padding-bottom:20px;}
+.partner li {font-weight:700;}
+.mL40 {margin-left:50px;}
+.p1 {width:141px; height:43px; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/f_bg2016.jpg) no-repeat;}
+.p2 {
+width: 306px;
+height: 43px;
+background: url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/f_bg2016.jpg) -141px 0 no-repeat;
+}
+
+
+.p3 {
+width: 338px;
+height: 43px;
+background: url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/f_bg2016.jpg) -450px 0 no-repeat;
+}
+
+
+/*20120625*/
+.nextMenu {width:998px; border-bottom:#369 1px solid; border-left:#369 1px solid; border-right:#369 1px solid; line-height:30px;}
+.nextMenu a {margin-left:20px;}
+a.nextNow {color:#f60; font-weight:700;}
+
+/*====== new footer ======*/
+.footer {border-top:#666 2px solid; padding:0;}
+.footer a {color:#777;}
+.footer strong a {color:#333;}
+.top3-box {line-height:20px; padding:15px 20px 0;}
+.top3-box p a {margin-right:10px;}
+.other4-box {line-height:20px; padding:15px 20px;}
+.other4-part1 {float:left; width:160px; margin-right:40px;}
+.other4-part1 ul {border-top:#666 1px dotted; padding-top:3px;}
+.other4-part2 {float:left; width:360px; border-top:#666 1px dotted; padding-top:3px;}
+.banquan {text-align:center; border-top:#666 1px dotted; padding:20px 0; margin:0 20px;}
+.small-f {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/smallContact.jpg) no-repeat; padding-left:20px;}
+.small-t {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/smallContact.jpg) 0 -16px no-repeat; padding-left:20px;}
+.small-e {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/smallContact.jpg) 0 -32px no-repeat; padding-left:20px;}
+.small-p {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/images2/smallContact.jpg) 0 -48px no-repeat; padding-left:20px;}
+
+/*====== loading ======*/
+.loading {height:131px; padding-top:100px; text-align:center; font-size:14px; color:#666; line-height:200%;}
+
+/*====================vtip==========================*/
+p#vtip { display: none; position: absolute; padding: 10px; left: 5px; font-size: 0.8em; background-color: white; border: 1px solid #a6c9e2; -moz-border-radius: 5px; -webkit-border-radius: 5px; z-index: 9999 }
+p#vtip #vtipArrow { position: absolute; top: -10px; left: 5px }
+/*================================================*/
+.nowC a {padding:0 !important;}
+/*===================Agent=========================*/
+.agentBox {padding:10px 25px; border:#f60 1px solid; zoom:1; background-color:#fff;}
+.op {color:#999; font-size:14px; text-decoration:line-through;}
+/*================ ����Ŀ¼ =========================*/
+.nextMenu {width:998px; border-bottom:#369 1px solid; border-left:#369 1px solid; border-right:#369 1px solid; line-height:30px;}
+.nextMenu a {margin-left:20px;}
+a.nextNow {color:#f60; font-weight:700;}
+/*=============== SignBox ========================*/
+.signTitle {font-size:14px; font-weight:700; color:#f90;}
+.signIn {width:310px; border-right:#ccc 1px solid;}
+.signUp {width:290px; padding-left:50px; border-right:#ccc 1px solid;}
+.continueGuest {padding:45px 0 0 80px;}
+
+
+/*Select*/
+.ff{border:#FF9933 solid 1px;background:#FFFFFF;width:217px;POSITION:absolute}
+.ff ul{width:100%;margin:0;float:left;overflow:hidden;padding:4px 0 4px 0; height:250px}
+.ff ul li{width:100%;line-height:24px;height:25px;padding:0 0 0 10px;margin:0; cursor:pointer;overflow:hidden}
+.li_a1{background:#fde27b;width:187px;margin:0;padding:0 0 0 10px;}
+.li_a2{width:100%;line-height:23px;padding:0;height:23px;float:left;background:#fff1b9;border-top:#f7ba09 solid 1px;border-bottom:#f7ba09 solid 1px;}
+.ff_p{ text-align:center;padding:0 5px; }
+.ff_p a{color:#143885;font-size:13px;}
+
+.ff_w{border:#FF9933 solid 1px;background:#FFFFFF;POSITION:absolute}
+.ff_w ul{width:100%;margin:0;float:left;overflow:hidden;padding:4px 0 4px 0; }
+.ff_w ul li{width:100%;line-height:24px;height:25px;padding:0 0 0 10px;margin:0; cursor:pointer}
+
+/*========== ���µ��� ============*/
+
+.recent-popup {
+    background-color: #F5F5F5;
+    border: 1px solid #666666;
+    border-radius: 10px 10px 10px 10px;
+    bottom: 20px;
+    padding: 20px 25px 20px 10px;
+    position: fixed;
+    right: 20px;
+    width: 213px;
+}
+
+
+.recent-popup-clock {
+    background: url("http://img1.chinatraveldepotstatic.com/PubImages/Hotel2Img/clock.png") no-repeat scroll 0 2px transparent;
+    padding-left: 30px;
+}
+
+.recent-popup-person {
+    background: url("http://img1.chinatraveldepotstatic.com/PubImages/Hotel2Img/person.png") no-repeat scroll 2px 3px transparent;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.recent-popup-close {
+    background: url("http://img1.chinatraveldepotstatic.com/PubImages/Hotel2Img/close.png") repeat scroll 0 0 transparent;
+    height: 16px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 16px;
+}
+.new-icon {position:absolute; top:-15px; right:270px; width:42px; height:26px; background:url( http://img1.chinatraveldepotstatic.com/PubImages/TrainsImg/new.png);}
+
+/*2014-12-03*/
+.travel-partner {border-top:#666 1px dotted; padding:10px 0 15px; margin:0 20px;}
+.travel-partner img {margin-right:20px;}
+
+/*2015-12-02 8周年样式*/
+/*.blue-bar-box {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/red-bar.png) bottom repeat-x !important;}
+.topNav {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/red-bar.png) bottom repeat-x;}
+.home {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/red-home.png);}
+.headerBox {height:128px; margin:0 auto; background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/balloon-bg.png) top no-repeat;}
+.ctdLogo {top:20px; left:120px;}
+.loginBox {top:10px;}
+.header-tools {top:65px;}
+.navL {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/jiao.png) no-repeat;}
+.navR {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/jiao.png) 0 -4px no-repeat;}
+.nowL {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/red-tab.png);}
+.nowR {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/red-tab.png) -165px 0 no-repeat;}
+.nowC {background:url(http://Img1.chinatraveldepotstatic.com/PubImages/header8/red-tab.png) -18px 0 repeat-x;}
+*/

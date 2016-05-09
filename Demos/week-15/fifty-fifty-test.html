@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Log In</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+  <div id="results">Click to test the 50/50 function.</div>
+  <button id="testme">Test 50/50</button>
+
+<script src="shoestring.js"></script>
+<script>
+(function($) {
+  // Add JavaScript utility class
+  $('html').removeClass('nojs').addClass('js');
+
+  var fiftyFifty = function() {
+    var myNum = Math.round(Math.random() * 10);
+    if (myNum % 2 == 0) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+
+  $('#testme').bind('click',function() {
+    var i = 0;
+    var passed = 0;
+    var failed = 0;
+    // Test fifty/fifty a million times
+    while(i<1000000) {
+        if(fiftyFifty()) {
+          passed++;
+        }
+        else {
+          failed++;
+        }
+        i++;
+      }
+    // Report the results
+    $('#results').html('Fifty-Fifty passed ' + passed + ' times and failed ' + failed + ' times.');
+  });
+
+})(shoestring);
+</script>
+
+</body>
+</html>
